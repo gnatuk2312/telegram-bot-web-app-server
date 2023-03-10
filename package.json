@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-web-app-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hnat Liashenko",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
